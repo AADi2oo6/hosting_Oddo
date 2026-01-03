@@ -303,7 +303,7 @@ export default function Settings() {
                 <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center overflow-hidden shadow-lg border-2 border-white relative">
                   {user?.avatar_url ? (
                     <img
-                      src={user.avatar_url.startsWith('http') ? user.avatar_url : `http://localhost:8000${user.avatar_url}`}
+                      src={user.avatar_url.startsWith('http') ? user.avatar_url : `https://oddo-zipcodebreakers.onrender.com${user.avatar_url}`}
                       alt={user?.name || 'User'}
                       className="w-full h-full object-cover"
                     />

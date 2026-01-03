@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://oddo-zipcodebreakers.onrender.com',
 });
 
 // Add a request interceptor to attach the Token

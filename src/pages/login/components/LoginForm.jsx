@@ -57,7 +57,7 @@ const LoginForm = () => {
       <button
         type="button"
         className="w-full flex items-center justify-center gap-3 bg-white border border-gray-300 rounded-lg p-2.5 text-gray-700 font-medium hover:bg-gray-50 transition-colors text-sm shadow-sm"
-        onClick={() => window.location.href = "http://localhost:8000/auth/google/login"}
+        onClick={() => window.location.href = "https://oddo-zipcodebreakers.onrender.com/auth/google/login"}
       >
         <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
